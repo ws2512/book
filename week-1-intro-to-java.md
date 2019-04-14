@@ -1,5 +1,10 @@
 # Week 1: Intro to Java
 
+```text
+javac HelloWorld.java #compile
+java HelloWorld #run
+```
+
 **Static typing:** 
 
 * Once defined, you can't change the type of the variable.
