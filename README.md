@@ -1,6 +1,6 @@
 # Study CS61B
 
-**Link of this study record:** [**https://wsuuu.gitbook.io/studycs61b**](https://wsuuu.gitbook.io/studycs61b/)\*\*\*\*
+\*\*\*\*[**Link of this study record**](https://wsuuu.gitbook.io/studycs61b/)\*\*\*\*
 
 **Goal:** Get better understanding of data structures‌
 
