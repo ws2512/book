@@ -1,5 +1,7 @@
 # Study CS61B
 
+**Link of this study record:** [**https://wsuuu.gitbook.io/studycs61b/**](https://wsuuu.gitbook.io/studycs61b/)\*\*\*\*
+
 **Goal:** Get better understanding of data structures‌
 
 **Motivation:** The key for a good program is to know how to combine different data structures and use them for better efficiency. Mechanically memorizing some code snippets won't help you on writing good code and would overwhelm you with the huge amount of messy information.‌
