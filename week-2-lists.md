@@ -27,3 +27,15 @@ different access control to members \(i.e. method or variable\)
 
 **`private`,** only be accessed by code inside the same **`.java`** file, so you can hide details of certain pieces to other users.
 
+#### Nested Classes:
+
+Declaring a nested class as `static` means that methods inside the static class can not access any of the members of the enclosing class.
+
+#### Caching:
+
+Saving intermediate results so we don't need repeated retrieval or calculation, this saves a lot of time.
+
+#### Invariants:
+
+A typical example is dummy node in lists. Adding a dummy node would often save you the extra code for special cases, making the code more clean and simple. 
+
