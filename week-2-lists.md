@@ -39,3 +39,20 @@ Saving intermediate results so we don't need repeated retrieval or calculation, 
 
 A typical example is dummy node in lists. Adding a dummy node would often save you the extra code for special cases, making the code more clean and simple. 
 
+#### Destructive vs. Non-destructive Methods: <a id="implementing-destructive-vs-non-destructive-methods"></a>
+
+By destructive, we mean that the original variable changes. Be careful about writing this kind funcs.
+
+For non-destructive, the original variable doesn't get modified, instead, a fresh new copy is modified and returned.
+
+```text
+IntList origL = IntList.of(1, 2, 3)
+dSquareList(origL);
+// origL is now (1, 4, 9)
+
+IntList origL = IntList.of(1, 2, 3)
+IntList squaredList = squareListIterative(origL);
+// origL is still (1, 2, 3)
+// squaredList is (1, 4, 9)
+```
+
