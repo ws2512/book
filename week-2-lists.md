@@ -17,5 +17,5 @@ When declaring a reference variable \(Dog, Planet, array, etc.\), Java allocates
 
 #### Finished Proj 0 \(NBody Simulation\):
 
-![Simulation of a tiny universe](.gitbook/assets/1851555614852_.pic_hd.jpg)
+![Simulation of a tiny universe](.gitbook/assets/proj0.jpeg)
 
