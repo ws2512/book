@@ -1,4 +1,4 @@
-# Week 1: Intro to Java
+# 1. Intro to Java
 
 ### 4.14
 
