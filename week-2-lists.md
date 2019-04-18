@@ -15,3 +15,7 @@ In Java, there are 8 primitive types: byte, short, int, long, float, double, boo
 
 When declaring a reference variable \(Dog, Planet, array, etc.\), Java allocates a box of 64 bits, no matter what type of object. The 64 bit box contains the address of the variable instead of the real data.
 
+#### Finished Proj 0 \(NBody Simulation\):
+
+![Simulation of a tiny universe](.gitbook/assets/1851555614852_.pic_hd.jpg)
+
