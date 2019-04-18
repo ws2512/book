@@ -19,3 +19,11 @@ When declaring a reference variable \(Dog, Planet, array, etc.\), Java allocates
 
 ![Simulation of a tiny universe](.gitbook/assets/proj0.jpeg)
 
+#### Public vs Private:
+
+different access control to members \(i.e. method or variable\)
+
+**`public` ,** you're effectively committing to supporting that member's behavior exactly as it is now, forever.
+
+**`private`,** only be accessed by code inside the same **`.java`** file, so you can hide details of certain pieces to other users.
+
