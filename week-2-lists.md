@@ -56,3 +56,35 @@ IntList squaredList = squareListIterative(origL);
 // squaredList is (1, 4, 9)
 ```
 
+### 4.25
+
+#### **Generics:**
+
+Allow you to create data structures that hold any reference type. We just need to put the desired type inside of angle brackets during declaration, and also use empty angle brackets during instantiation. For example:
+
+```text
+DLList<String> d2 = new DLList<>("hello");
+d2.addLast("world");
+```
+
+* If you need to instantiate a generic over a primitive type, use `Integer`, `Double`, `Character`, `Boolean`, `Long`, `Short`, `Byte`, or `Float` instead of their primitive equivalents.
+
+#### Arrays:
+
+A sequence of N memory boxes \(N = length\) where all boxes are of the same type, and are numbered 0 through N - 1.
+
+**creation:**
+
+* `x = new int[3];`
+* `y = new int[]{1, 2, 3, 4, 5};`
+* `int[] z = {9, 10, 11, 12, 13};`
+
+**copy:**
+
+* `System.arraycopy(b, 0, x, 3, 2)` is the equivalent of `x[3:5] = b[0:2]` in Python.
+* Java arrays only perform bounds checking at runtime.
+
+**resizing:**
+
+multiplicative instead of additive
+
